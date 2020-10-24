@@ -7,7 +7,8 @@ public class DragonTama extends Tamagotchi {
 		
 		this.size = 4.12; 
 		this.life = 150;
-		this.type = " ,  je suis un dragon";
+		this.typeTexte = " ,  je suis un dragon";
+		this.type = "Dragon";
 		this.imageTama = "                                                   /===-_---~~~~~~~~~------____"
 				+"\n                                                |===-~___                _,-'"
 				+"\n                 -==\\                         `//~\\   ~~~~`---.___.-~~"
@@ -156,6 +157,18 @@ public class DragonTama extends Tamagotchi {
 			}
 		}
 		return textReturn;
+	}
+
+	@Override
+	protected String meow() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected String bark() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

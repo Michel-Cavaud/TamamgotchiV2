@@ -7,7 +7,8 @@ public class DogTama extends Tamagotchi{
 		
 		this.size = 0.32; 
 		this.life = 50;
-		this.type = " ,  je suis un chien";
+		this.typeTexte = " ,  je suis un chien";
+		this.type = "Dog";
 		this.imageTama = "         .--.             .---."
 				+"\n        /:.  '.         .' ..  '._.---."
 				+"\n       /:::-.  \\.-\"\"\"-;` .-:::.     .::\\"
@@ -165,6 +166,18 @@ public class DogTama extends Tamagotchi{
 			}
 		}
 		return textReturn;
+	}
+
+	@Override
+	protected String fire() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected String meow() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 		
 }

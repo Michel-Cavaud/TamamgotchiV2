@@ -9,7 +9,8 @@ public class CatTama extends Tamagotchi{
 		this.size = 0.32; 
 		this.life = 50;
 		
-		this.type = " ,  je suis un chat";
+		this.typeTexte = " ,  je suis un chat";
+		this.type = "Cat";
 		this.imageTama = "          .__....._             _.....__,"
 				+"\n            .\": o :':         ;': o :\"."
 				+"\n            `. `-' .'.       .'. `-' .'"
@@ -178,6 +179,20 @@ public class CatTama extends Tamagotchi{
 			}
 		}
 		return textReturn;
+	}
+
+
+	@Override
+	protected String fire() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	protected String bark() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 		

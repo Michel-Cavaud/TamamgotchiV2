@@ -5,7 +5,8 @@ public class TamaTama extends Tamagotchi {
 	public TamaTama(String name, String color, String hairColor){
 		super(name, color, hairColor);
 		
-		this.type = " , je suis un Tamagotchi";
+		this.typeTexte = " , je suis un Tamagotchi";
+		this.type ="Tama";
 		this.size = 1.72; 
 		this.life = 100;
 		
@@ -64,6 +65,24 @@ public class TamaTama extends Tamagotchi {
 					+ "\nLe faire mourir -- > 99";
 		}
 		return this.actions;
+	}
+
+	@Override
+	protected String fire() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected String meow() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected String bark() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

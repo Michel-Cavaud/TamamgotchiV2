@@ -16,6 +16,7 @@ abstract public class Tamagotchi {
 	protected String imageWhale;
 	protected String imageTama;
 	protected String type;
+	protected String typeTexte;
 	
 	/**
 	 * Constructor Tamagotchi 
@@ -34,6 +35,9 @@ abstract public class Tamagotchi {
 	}
 	
 	abstract protected String setMenu();
+	protected abstract String fire();
+	protected abstract String meow();
+	protected abstract String bark();
 	
 	/**
 	 * Smoke health -10, life -2
@@ -641,5 +645,26 @@ abstract public class Tamagotchi {
 	public void setImageTama(String imageTama) {
 		this.imageTama = imageTama;
 	}
+
+	/**
+	 * @return the typeTexte
+	 */
+	public String getTypeTexte() {
+		return typeTexte;
+	}
+
+	/**
+	 * @param typeTexte the typeTexte to set
+	 */
+	public void setTypeTexte(String typeTexte) {
+		this.typeTexte = typeTexte;
+	}
+
+	
+
+	
+
+	
+	
 	
 }
