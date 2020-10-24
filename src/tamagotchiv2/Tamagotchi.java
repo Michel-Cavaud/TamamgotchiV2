@@ -13,10 +13,12 @@ abstract public class Tamagotchi {
 	protected String hairColor;
 	protected String dateBirth;
 	protected String actions;
-	
+	protected String imageWhale;
+	protected String imageTama;
+	protected String type;
 	
 	/**
-	 * Constructor Tamagotchi
+	 * Constructor Tamagotchi 
 	 * @param name
 	 * @param color
 	 * @param hairColor
@@ -597,4 +599,47 @@ abstract public class Tamagotchi {
 	public void setType(String type) {
 		this.type = type;
 	}
+	
+	/**
+	 * @return the imageWhale
+	 */
+	public String getImageWhale() {
+		return imageWhale;
+	}
+
+	/**
+	 * @param imageWhale the imageWhale to set
+	 */
+	public void setImageWhale(String imageWhale) {
+		this.imageWhale = imageWhale;
+	}
+
+	/**
+	 * @return the actions
+	 */
+	public String getActions() {
+		return actions;
+	}
+
+	/**
+	 * @param actions the actions to set
+	 */
+	public void setActions(String actions) {
+		this.actions = actions;
+	}
+
+	/**
+	 * @return the imageTama
+	 */
+	public String getImageTama() {
+		return imageTama;
+	}
+
+	/**
+	 * @param imageTama the imageTama to set
+	 */
+	public void setImageTama(String imageTama) {
+		this.imageTama = imageTama;
+	}
+	
 }

@@ -1,11 +1,6 @@
 package tamagotchiv2;
 
-
-
 public class TamaTama extends Tamagotchi {
-	
-	protected String type;
-	protected  String imageTama;
 	
 	public TamaTama(String name, String color, String hairColor){
 		super(name, color, hairColor);
@@ -45,7 +40,7 @@ public class TamaTama extends Tamagotchi {
 					<br>Voir votre Tamagotchi -- > 88
 					<br>Le faire mourir -- > 99
 	 */
-	private String setMenu() {
+	protected String setMenu() {
 		String textMask = this.mask? "Enlever son masque": "Mettre son masque";
 		if(this.life <= 0 || this.health <= 0) {
 			this.actions = "";
