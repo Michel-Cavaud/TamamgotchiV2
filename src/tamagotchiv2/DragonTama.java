@@ -64,7 +64,7 @@ public class DragonTama extends Tamagotchi {
 		this.setLife(-1);
 		if(!this.checkLife()){
 			if(this.health < 30) {
-				textReturn ="Votre " + this.name + " ne peut pas faire de feu !"
+				textReturn ="Votre " + this.name + " ne peut pas faire de feu ! Sa santé est trop basse"
 						+ "\nIl a maintenant " + this.life + " points de vie";
 			}else {
 				this.setHealth(-10);

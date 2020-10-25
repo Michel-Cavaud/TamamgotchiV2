@@ -410,7 +410,7 @@ abstract public class Tamagotchi {
 	 */
 	public String showTamagotchi() {
 		String textMask = this.mask ?"Je porte un masque" : "Je ne porte pas de masque";
-		String text ="Je suis " + this.name + this.type
+		String text ="Je suis " + this.name + this.typeTexte
 							+ "\nJe suis né le " + this.dateBirth
 							+ "\nJe suis de couleur " + this.color
 							+ "\nMes cheveux sont " + this.hairColor 
