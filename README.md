@@ -1,6 +1,6 @@
 ## **Projet Tamagotchi Michel CAVAUD CDA 2020 - 2021 GRETA Montpellier**
 
-**Version 2 du projet (voir version 1 [ICI](https://github.com/Michel-Cavaud/Tamamgotchi))
+**Version 2 du projet (voir version 1 [ICI](https://github.com/Michel-Cavaud/Tamamgotchi))**
 
 **Historique du projet**
 Une première version du Tamagotchi a été réalisé, en utilisant les objets en JAVA et répondre aux actions et caractéristiques suivantes.
