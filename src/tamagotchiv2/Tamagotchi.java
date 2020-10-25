@@ -34,7 +34,7 @@ abstract public class Tamagotchi {
 		this.dateBirth = DatePerso.aujourdhui();
 	}
 	
-	abstract protected String setMenu();
+	protected abstract String setMenu();
 	protected abstract String fire();
 	protected abstract String meow();
 	protected abstract String bark();
