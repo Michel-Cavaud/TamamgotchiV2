@@ -55,7 +55,7 @@ public class CatTama extends Tamagotchi{
 				<br>Il a maintenant "health" points de santé
 				<br>Il a maintenant "life" points de vie
 	 */
-	public String specificShoutAction() {
+	protected String specificShoutAction() {
 		String textReturn = "";
 		this.setLife(-1);
 		if(!this.checkLife()){
