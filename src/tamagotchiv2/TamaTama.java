@@ -67,20 +67,7 @@ public class TamaTama extends Tamagotchi {
 		return this.actions;
 	}
 
-	@Override
-	protected String fire() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	protected String meow() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	protected String bark() {
+	protected String specificShoutAction() {
 		// TODO Auto-generated method stub
 		return null;
 	}

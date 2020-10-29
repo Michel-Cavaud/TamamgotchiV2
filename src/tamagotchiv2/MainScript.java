@@ -166,18 +166,7 @@ public class MainScript {
 				break;
 				
 				case 13 : emptyConsole(100);
-							if(myTama.getType() == "Dragon") {
-								System.out.println(myTama.fire());
-							}
-							else if (myTama.getType() == "Cat") {
-								System.out.println(myTama.meow());
-							}
-							else if (myTama.getType() == "Dog") {
-								System.out.println(myTama.bark());
-							}
-							else {
-								System.out.println(myTama.getName() + " n'est pas capable de faire cela !");
-							}
+							System.out.println(myTama.specificShoutAction());
 							enterKey();
 				break;
 							

@@ -35,9 +35,11 @@ abstract public class Tamagotchi {
 	}
 	
 	protected abstract String setMenu();
-	protected abstract String fire();
-	protected abstract String meow();
-	protected abstract String bark();
+	protected abstract String specificShoutAction();
+	
+	//protected abstract String fire();
+	//protected abstract String meow();
+	//protected abstract String bark();
 	
 	/**
 	 * Smoke health -10, life -2

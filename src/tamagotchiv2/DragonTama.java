@@ -59,7 +59,7 @@ public class DragonTama extends Tamagotchi {
 				<br>Il a maintenant "health" points de santé
 				<br>Il a maintenant "life" points de vie
 	 */
-	public String fire() {
+	public String specificShoutAction() {
 		String textReturn = "";
 		this.setLife(-1);
 		if(!this.checkLife()){
@@ -157,18 +157,6 @@ public class DragonTama extends Tamagotchi {
 			}
 		}
 		return textReturn;
-	}
-
-	@Override
-	protected String meow() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	protected String bark() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 	
 }

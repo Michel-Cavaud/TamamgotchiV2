@@ -43,7 +43,7 @@ public class DogTama extends Tamagotchi{
 				<br>Il a maintenant "health" points de santé
 				<br>Il a maintenant "life" points de vie
 	 */
-	public String bark() {
+	public String specificShoutAction() {
 		String textReturn = "";
 		this.setLife(-1);
 		if(!this.checkLife()){
@@ -168,17 +168,5 @@ public class DogTama extends Tamagotchi{
 		return textReturn;
 	}
 
-	@Override
-	protected String fire() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	protected String meow() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-		
 }
 
