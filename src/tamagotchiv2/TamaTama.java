@@ -67,6 +67,9 @@ public class TamaTama extends Tamagotchi {
 		return this.actions;
 	}
 
+	/**
+	 * Specific class for each child not used in TamaTama
+	 */
 	protected String specificShoutAction() {
 		// TODO Auto-generated method stub
 		return null;
