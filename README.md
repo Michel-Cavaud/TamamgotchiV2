@@ -35,7 +35,7 @@ Chaque Tamagotchi a été « corrigé » par trois autres stagiaires de la forma
    écrites dans la class Tamagotchi avec leur getter et setter.
  - La méthode setMenu() devient une class abstract car elle doit exister
    dans chaque class enfant.
- - Les class « fire(), meow(), bark() »deviennent abstract pour être
+ - La class « specificShoutAction() »devient abstract pour être
    créer dans chaque class enfant.
  - Une class « TamaTama » est créée pour pouvoir avoir un type de
    Tamagotchi simple.
