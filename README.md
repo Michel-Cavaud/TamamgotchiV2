@@ -48,4 +48,6 @@ Chaque Tamagotchi a été « corrigé » par trois autres stagiaires de la forma
 **Les améliorations à prévoir :**
 Pour l’expérience utilisateur il est difficile de jouer au Tamagotchi dans la console. Même en ajoutant des lignes dans la console pour une meilleure lisibilité, suivant la taille de la console le rendu n’est pas assez satisfaisant. La prochaine version devra avoir un affichage en fenêtre pour une meilleur expérience utilisateur.
 
-![Diagramme de class](https://github.com/Michel-Cavaud/TamamgotchiV2/raw/master/Images/Diagramme%20de%20class%20Tamagotchi%20V2.png)
+<p align="center">
+  <img src="https://github.com/Michel-Cavaud/TamamgotchiV2/raw/master/Images/Diagramme%20de%20class%20Tamagotchi%20V2.png?raw=true" alt="Diagramme de class"/>
+</p>
